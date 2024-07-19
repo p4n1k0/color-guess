@@ -2,6 +2,7 @@ const colorToGuess = document.getElementById('rgb-color');
 const colorList = document.getElementById('color-options');
 const answer = document.getElementById('answer');
 const colors = document.getElementsByClassName('ball');
+const score = document.getElementById('score');
 
 function createColorCircle() {
     for (let i = 0; i < 6; i += 1) {
@@ -20,3 +21,46 @@ function colorizeCircle() {
     }
 }
 colorizeCircle();
+
+
+function randomizeText () {
+    const randomText = () => Math.floor(Math.random() * 6);
+    const colorRGBText = colors[randomText()].style.backgroundColor;
+    colorToGuess.innerText = colorRGBText.replace('rgb', '');
+}
+randomizeText();
+
+
+function checkAnswer() {
+    for (let i = 0; i < colors.length; i += 1) {
+      colors[i].addEventListener('click', (event) => {
+        const selectedColor = event.target.style.backgroundColor;
+        if (selectedColor.replace('rgb', '') === colorToGuess.innerText) {
+          answer.innerText = 'Acertou!';
+        } else {
+          answer.innerText = 'Errou! Tente novamente!';
+        }
+      });
+    }
+  }
+  checkAnswer();
+
+
+const btnReset = document.getElementById('reset-game');
+
+function resetGame() {
+    btnReset.addEventListener('click', () => {
+        document.location.reload();
+    });
+}
+resetGame();
+
+
+function initialScore() {
+    if (localStorage.getItem('score') === null) {
+        localStorage.setItem('score', '0');
+    }
+    const result = localStorage.getItem('score');
+    score.innerText = `Pontos: ${result}`;
+}
+initialScore();
