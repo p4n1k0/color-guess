@@ -40,9 +40,9 @@ Aqui você vai encontrar os detalhes de como foi estruturar o desenvolvimento do
 
 ## O que foi desenvolvido
 
-- Será desenvolvida uma aplicação utilizando JavaScript, HTML5 e CSS3.
+- Uma aplicação utilizando JavaScript, HTML5 e CSS3.
 
-- Nesta aplicação deverá ser possível jogar um jogo de adivinhação de cores e sua pontuação deverá atualizar de acordo com os acertos.
+- Nesta aplicação deve ser possível jogar um jogo de adivinhação de cores e sua pontuação deverá atualizar de acordo com os acertos.
 
 ---
 
