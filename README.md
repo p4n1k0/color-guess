@@ -8,7 +8,6 @@ Aqui você vai encontrar os detalhes de como foi estruturar o desenvolvimento do
   - [O que foi desenvolvido](#o-que-foi-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Como desenvolver](#como-desenvolver)
   - [Linter](#linter)
   - [Cypress](#cypress)
