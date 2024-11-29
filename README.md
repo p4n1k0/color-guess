@@ -7,7 +7,6 @@ Aqui você vai encontrar os detalhes de como foi estruturar o desenvolvimento do
 - [Habilidades](#habilidades)
   - [O que foi desenvolvido](#o-que-foi-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Como desenvolver](#como-desenvolver)
